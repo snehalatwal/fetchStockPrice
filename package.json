@@ -1,0 +1,18 @@
+{
+  "name": "stockapiintegration",
+  "version": "1.0.0",
+  "description": "Fetch the current price of a stock using latest stock price API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Sneha",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
